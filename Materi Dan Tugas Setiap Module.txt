@@ -1,0 +1,5 @@
+Didalam direpository ini terdapat materi dan tugas
+
+1. Materi dan tugas
+2. Materi QA-JS Syntax dan tugas
+3. Variable dan tugas
