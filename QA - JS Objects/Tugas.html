@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tugas</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+
+    <script>
+      const person = {
+        name : "Eduwork",
+        firstName: "John",
+        lastName: "Doe",
+        fullName : function(){
+          return this.firstName + " " + this.lastName;
+        }
+      };
+      alert("Selamat datang di " + person.name);
+      x = person.fullName();
+      document.getElementById("demo").innerHTML = "Nama Depan: " + person.firstName + "<br>" + "Nama Belakang: " 
+      + person.lastName + "<br>" + "Nama Panjang: " + x; 
+      // document.getElementById("demo").innerHTML = "The car specification is " + car.specitification();
+      </script>
+    </script>
+  </body>
